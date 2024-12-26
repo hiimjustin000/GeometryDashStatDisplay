@@ -27,18 +27,42 @@ using namespace geode::prelude;
 13: diamonds
 14: mana orbs
 15: daily levels
+16: shadow shards
+17: poison shards
+18: fire shards
+19: ice shards
+20: lava shards
+21: demon keys
 22: total orbs
+23: earth shards
+24: blood shards
+25: metal shards
+26: light shards
+27: soul shards
 28: moons
 29: diamond shards
+30: fire path
+31: ice path
+32: poison path
+33: shadow path
+34: lava path
+35: earth path
+36: blood path
+37: metal path
+38: light path
+39: soul path
 40: gauntlets
 41: list rewards
 42: insane levels
+43: gold keys
 Other values are unknown
 */
 enum class stats {
     JUMPS = 1, ATTEMPTS, MAIN_LEVELS, ONLINE_LEVELS, DEMONS, STARS, MAP_PACKS, SECRET_COINS, DESTROYED_PLAYERS,
-    LIKED_LEVELS, RATED_LEVELS, USER_COINS, DIAMONDS, MANA_ORBS, DAILY_LEVELS, TOTAL_ORBS = 22,
-    MOONS = 28, DIAMOND_SHARDS, GAUNTLETS = 40, LIST_REWARDS, INSANES
+    LIKED_LEVELS, RATED_LEVELS, USER_COINS, DIAMONDS, MANA_ORBS, DAILY_LEVELS, SHADOW_SHARDS, POISON_SHARDS,
+    FIRE_SHARDS, ICE_SHARDS, LAVA_SHARDS, DEMON_KEYS, TOTAL_ORBS, EARTH_SHARDS, BLOOD_SHARDS, METAL_SHARDS,
+    LIGHT_SHARDS, SOUL_SHARDS, MOONS, DIAMOND_SHARDS, FIRE_PATH, ICE_PATH, POISON_PATH, SHADOW_PATH, LAVA_PATH,
+    EARTH_PATH, BLOOD_PATH, METAL_PATH, LIGHT_PATH, SOUL_PATH, GAUNTLETS, LIST_REWARDS, INSANES, GOLD_KEYS
 };
 
 class $modify(GJBaseGameLayer) {
